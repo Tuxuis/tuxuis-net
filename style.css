@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: 60vh;
+}
+
+#title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    background: linear-gradient(to right, #5fd4ff, #e761ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 9999999px;
+    box-shadow: 0px 0px 50px rgb(96, 112, 255);
+}
+
+#ezButton {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    background-color: rgb(31, 31, 31);
+    margin-top: 40px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+    border: 1px solid rgb(81, 81, 81);
+}
