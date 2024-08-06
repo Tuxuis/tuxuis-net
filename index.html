@@ -36,7 +36,7 @@
 
         const path = ref(database, "Bans")
 
-        let delayRes = await delay(2000);
+        let delayRes = await delay(1500);
         onValue(path, function (count) {
             document.getElementById("counter").textContent = `${count.val()}`
             document.getElementById("connected").textContent = "(Connected)"
