@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: 40vh;
+}
+
+#title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    background: linear-gradient(to right, #5fd4ff, #e761ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 9999999px;
+    box-shadow: 0px 0px 50px rgb(96, 112, 255);
+}
+
+#ezButton {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    background-color: rgb(31, 31, 31);
+    margin-top: 40px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+    border: 1px solid rgb(81, 81, 81);
+    transition: 500ms;
+}
+
+#ezButton:hover {
+    background-color: rgb(11, 11, 11);
+    border-radius: 20px;
+}
+
+
+.count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    padding-left: 40px;
+    padding-right: 40px;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-color: rgb(36, 40, 52);
+    border-width: 1px;
+}
+#countTitle {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    background: linear-gradient(to left, #fa8e4f, #fd5ad2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+#counter {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    background: linear-gradient(to left, #fa4f4f, #ff5555);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 0px;
+}
+#connected {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+    background: linear-gradient(to left, #55ff7d, #2ce75e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 5px;
+}
