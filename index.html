@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <!--Fear nerd-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Tuxuis" property="og:title" />
     <meta content="Tux :3" property="og:description" />
     <meta content="https://tuxuis.net" property="og:url" />
-    <meta content="https://raw.githubusercontent.com/Tuxuis/tuxuis-net/main/images/profile.png?token=GHSAT0AAAAAACVWE7PTDHKX4AHVSNBRBETIZVSWIOQ" property="og:image" />
+    <meta content="https://raw.githubusercontent.com/Tuxuis/tuxuis-net/main/images/profile.png" property="og:image" />
     <meta content="#b566ff" data-react-helmet="true" name="theme-color" />
     
     <title>✨TUX</title>
@@ -38,9 +39,9 @@
 
         let delayRes = await delay(1500);
         onValue(path, function (count) {
-            document.getElementById("counter").textContent = `${count.val()}`
-            document.getElementById("connected").textContent = "(Connected)"
-            document.getElementById("countTitle").textContent = "Exploiters Banned"
+            document.getElementById("counter").textContent = `${count.val()}`;
+            document.getElementById("connected").textContent = "(Connected)";
+            document.getElementById("countTitle").innerHTML = '<a href="https://www.roblox.com/games/4639625707/" target="_blank">Exploiters Banned</a>';
         });
         
     </script>
@@ -51,13 +52,13 @@
 </head>
 <body>
     <div class="main">
-        <h1 id="title">Tuxuis</h1>
+        <h1 id="title"><a href="https://discord.com/users/816021414095618139">Tuxuis</a></h1>
         <img id="profile" src="images/profile.png" alt="">
         <!--<a id="ezButton" href="https://e-z.bio/tuxuis">Go to E-Z bio</a> -->
     </div>
 
     <div class="count">
-        <h3 id="counter">...</h3>
+        <h3 id="counter"><small>Loading...</small></h3>
         <h2 id="countTitle"></h2>
         <h3 id="connected"></h3>
     </div>
